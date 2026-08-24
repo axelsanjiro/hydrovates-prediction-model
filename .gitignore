@@ -1,0 +1,19 @@
+# Virtual Environment
+ml/venv/
+venv/
+env/
+.env/
+
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Models (Penting agar repo GitHub tidak bengkak)
+*.csv
+*.xls
+*.xlsx
+# *.pkl  # (Hapus tanda '#' di awal baris ini jika ukuran model .pkl Anda lebih dari 50MB)
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
